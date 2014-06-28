@@ -1,0 +1,14 @@
+{
+  "name": "vibius-templating",
+  "main": "./lib/vibius-templating",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "activationEvents": ["vibius-templating:toggle"],
+  "repository": "https://github.com/atom/vibius-templating",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}

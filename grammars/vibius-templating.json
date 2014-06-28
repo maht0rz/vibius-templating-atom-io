@@ -1,0 +1,7 @@
+{
+  "name":"vibius-templating",
+  "fileTypes":[
+    "tpl.php"
+  ]
+  "match":"(\\{\\{\\$(?:[a-z][a-z0-9_]*)\\}\\})"
+}

@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable vibius-templating': 'vibius-templating:toggle'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'vibius-templating'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'vibius-templating:toggle' }
+      ]
+    ]
+  }
+]
